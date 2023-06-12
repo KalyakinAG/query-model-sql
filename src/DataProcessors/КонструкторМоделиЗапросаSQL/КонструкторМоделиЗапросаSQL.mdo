@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="974544f7-1357-45de-b89e-9b68142037b4">
+  <producedTypes>
+    <objectType typeId="853823cc-3d6b-4e48-aaeb-3268a6ec71b4" valueTypeId="d6ffda8f-8a9f-445e-9966-f88364f9dcb9"/>
+    <managerType typeId="af5d91d5-89e5-418b-8dbc-e64aa131b94f" valueTypeId="138cb8b3-26bb-4cea-939e-e0c489e6f403"/>
+  </producedTypes>
+  <name>КонструкторМоделиЗапросаSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор модели запроса SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонструкторМоделиЗапросаSQL.Form.Форма</defaultForm>
+  <attributes uuid="389c89da-74d8-4a1b-a5ff-67c6ec48ef9e">
+    <name>ТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="669a9f91-f334-42b5-a749-1972bacc3d85">
+    <name>ТекстМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст модели</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7c2302c5-e14d-47a7-a283-fd0cc1e58d31">
+    <name>ТипСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип СУБД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="06b3d649-2b98-4edf-866d-c466707649a2">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="450da9f5-29bb-4187-acfc-f37135c07d0d">
+    <name>ИмяБазыДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя базы данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5021c574-19db-4016-b243-9de448f0d9f0">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="899aa347-50af-42e3-8d1b-e525d6dbc933">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2e6a6f91-a49f-4147-bcaa-3e9398159ad3">
+    <name>АутентификацияNTLM</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация Windows</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="337a256f-85cd-4477-b9d2-494a9e2a95cb">
+    <name>СмещениеДат2000</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смещение дат 2000</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ac75709-0acf-4fff-9ed3-f5e7d3e3da13">
+    <name>РезультатJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7e4f326c-ab9a-414d-ba66-6af19a1d2d74">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60dd7dab-cafa-4f99-a8aa-fe93348c111a">
+  <producedTypes>
+    <objectType typeId="9d53df5c-c146-4150-83d1-83d3e3eb31e5" valueTypeId="86272c15-e1d8-487a-8a76-113d71e82780"/>
+    <managerType typeId="74f70076-4421-4753-b53b-fef2fe592e80" valueTypeId="4f553fac-d99e-4e85-8b30-47ac2cec1eb5"/>
+  </producedTypes>
+  <name>ПолучитьМетаданныеПеречислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить метаданные перечислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучитьМетаданныеПеречислений.Form.Форма</defaultForm>
+  <attributes uuid="a3505f3f-8e58-40b7-abd1-249fe680b67b">
+    <name>ПутьКПриложению1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к приложению 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="566feec0-015b-4d35-8bb6-4efc15ee7085">
+    <name>СтрокаСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строка соединения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9d114163-d5ad-4a89-9bd3-3b740d86e74a">
+    <name>МакетПеречисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет &quot;Перечисления&quot;</value>
+    </synonym>
+    <type>
+      <types>TextDocument</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be611e2b-c8ab-4507-b246-c94184bfec36">
+    <name>Каталог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог файлов конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e2ae5716-69a3-4202-8168-f668afa36460">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
