@@ -45,6 +45,7 @@
   <subsystems>Subsystem.МПодсистемы</subsystems>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonModules>CommonModule.Общий</commonModules>
+  <commonModules>CommonModule.ОбщийКлиент</commonModules>
   <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаС_ADODB</commonModules>
   <dataProcessors>DataProcessor.КонструкторМоделиЗапросаSQL</dataProcessors>

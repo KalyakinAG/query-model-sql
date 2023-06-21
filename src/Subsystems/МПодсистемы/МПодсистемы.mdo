@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonModule.Общий</content>
   <content>CommonModule.ОбщийКлиентСервер</content>
+  <content>CommonModule.ОбщийКлиент</content>
   <subsystems>МодельЗапросаSQL</subsystems>
 </mdclass:Subsystem>

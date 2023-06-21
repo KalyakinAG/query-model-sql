@@ -6,12 +6,10 @@
     <value>Модель запроса SQL</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.МодельЗапросаSQL</content>
   <content>CommonModule.Общий</content>
   <content>CommonModule.ОбщийКлиентСервер</content>
   <content>DataProcessor.КонструкторМоделиЗапросаSQL</content>
   <content>CommonModule.РаботаС_ADODB</content>
-  <content>DataProcessor.ПолучитьМетаданныеПеречислений</content>
   <parentSubsystem>Subsystem.МПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
