@@ -43,6 +43,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.МПодсистемы</subsystems>
+  <commonPictures>CommonPicture.ГраницаСправа</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonModules>CommonModule.Общий</commonModules>
   <commonModules>CommonModule.ОбщийКлиент</commonModules>

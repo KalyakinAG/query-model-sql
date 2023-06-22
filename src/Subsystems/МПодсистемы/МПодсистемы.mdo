@@ -10,5 +10,7 @@
   <content>CommonModule.Общий</content>
   <content>CommonModule.ОбщийКлиентСервер</content>
   <content>CommonModule.ОбщийКлиент</content>
+  <content>CommonPicture.ГраницаСправа</content>
+  <content>CommonPicture.ЗаполнитьФорму</content>
   <subsystems>МодельЗапросаSQL</subsystems>
 </mdclass:Subsystem>
