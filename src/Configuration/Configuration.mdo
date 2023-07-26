@@ -25,7 +25,6 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <version>1.0.2</version>
-  <compatibilityMode>8.3.22</compatibilityMode>
   <languages uuid="79a72d93-436c-4326-b581-9889cb44eb40">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -43,5 +42,4 @@
   <commonModules>CommonModule.РаботаС_ADODB</commonModules>
   <dataProcessors>DataProcessor.КонструкторМоделиЗапросаSQL</dataProcessors>
   <dataProcessors>DataProcessor.МодельЗапросаSQL</dataProcessors>
-  <dataProcessors>DataProcessor.ПолучитьМетаданныеПеречислений</dataProcessors>
 </mdclass:Configuration>
