@@ -8,7 +8,6 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
-    <usePurposes>Checked</usePurposes>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c45a67a1-936b-4f49-b32b-aacd441b40a2"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c92814b3-941b-4a4c-8e1f-d9101c9a2a93"/>
@@ -17,14 +16,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="cee003f3-c903-4b9f-a230-6476b16ef79e"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a5113dd4-6328-43ce-a9cc-1249d09b2080"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6b315788-b480-4b6b-9df4-27111366f413"/>
-  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
-  <namePrefix>м_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.22</configurationExtensionCompatibilityMode>
-  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <namePrefix>КА_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
-  <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <languages uuid="79a72d93-436c-4326-b581-9889cb44eb40">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -33,13 +30,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.МПодсистемы</subsystems>
-  <commonPictures>CommonPicture.ГраницаСправа</commonPictures>
-  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
-  <commonModules>CommonModule.Общий</commonModules>
-  <commonModules>CommonModule.ОбщийКлиент</commonModules>
-  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
+  <subsystems>Subsystem.KASL</subsystems>
   <commonModules>CommonModule.РаботаС_ADODB</commonModules>
-  <dataProcessors>DataProcessor.КонструкторМоделиЗапросаSQL</dataProcessors>
   <dataProcessors>DataProcessor.МодельЗапросаSQL</dataProcessors>
 </mdclass:Configuration>
